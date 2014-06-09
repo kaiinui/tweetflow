@@ -44,13 +44,16 @@
 
 @-webkit-keyframes _tweet {
   from{
+  transform: translateX(660px);
     -webkit-transform: translateX(660px);
   }
   99%{
+  transform: translateX(-1260px);
     -webkit-transform: translateX(-1260px);
     opacity: 1;
   }
   to{
+  transform: translateX(-1260px);
     -webkit-transform: translateX(-1260px);
     opacity: 0;
   }

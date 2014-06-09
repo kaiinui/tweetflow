@@ -4,10 +4,10 @@
 
 $ ->
   $.getJSON "/tweets/search", (tweets)->
-    $("._tweet").remove() if j = 0
     $el = $("._tweetflow")
     j = 0
     setInterval ->
+      $("._tweet").remove() if j = 0
       i = 0
       j += 1
       tws = tweets.slice(20*(j-1), 20*j-1)
