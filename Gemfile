@@ -30,6 +30,8 @@ gem 'twitter'
 
 gem 'slim'
 
+gem 'rails_12factor'
+
 gem 'quiet_assets'
 
 # Use ActiveModel has_secure_password

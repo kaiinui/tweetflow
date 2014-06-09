@@ -1,6 +1,6 @@
 class Tweet
-  def self.search(query)
-    @search = Tweet.client.search(query, :result_type => "recent").take(20).map {|t| t.text.gsub(/http\:\/\/t\.co\/[1-9a-zA-Z]*/, "")}
+  def self.search(query, number)
+    @search = Tweet.client.search(query, :result_type => "recent").take(number).map {|t| t.text.gsub(/http\:\/\/t\.co\/[1-9a-zA-Z]*/, "")}
   end
 
   def self.client
