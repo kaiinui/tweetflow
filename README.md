@@ -1,7 +1,7 @@
 tweetflow
 =========
 
-Niconico-mannered on-image comment, for working on mobile.
+Niconico-mannered on-image comment, working on mobile.
 
 ![](https://dl.dropboxusercontent.com/u/7817937/github/tweetflow.gif)
 
