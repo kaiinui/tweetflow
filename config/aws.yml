@@ -1,0 +1,8 @@
+development:
+  access_key_id: AKIAIKGYCMXWX2MW4CRQ
+  secret_access_key: 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
+  dynamo_db_endpoint: dynamodb.ap-southeast-1.amazonaws.com
+production:
+  access_key_id: AKIAIKGYCMXWX2MW4CRQ
+  secret_access_key: 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
+  dynamo_db_endpoint: dynamodb.ap-southeast-1.amazonaws.com
